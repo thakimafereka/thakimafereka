@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tickets | tourismexpo.ac.ls</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-btn">☰</label>
+
+    <div class="sidebar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="programme.html">Programme</a>
+        <a href="tickets.html">Tickets</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="page">
+
+        <header class="hero">
+            <div class="hero-content">
+                <h1>Tickets and Registration</h1>
+                <p>Choose your experience</p>
+            </div>
+        </header>
+
+        <div class="container">
+
+            <div class="card">
+                <h2>Ticket Options</h2>
+
+                <div class="tickets">
+
+                    <div class="ticket-card">
+                        <h3>Standard</h3>
+                        <h1 class="price">M750</h1>
+
+                        <ul>
+                            <li>✔ Access to main events</li>
+                            <li>✔ Live performances</li>
+                            <li>✔ Festival entry</li>
+                        </ul>
+
+                        <button>Select Ticket</button>
+                    </div>
+
+                    <div class="ticket-card vip">
+                        <span class="badge">Most Popular</span>
+
+                        <h3>VIP</h3>
+                        <h1 class="price">M1200</h1>
+
+                        <ul>
+                            <li>✔ VIP lounge access</li>
+                            <li>✔ Premium seating</li>
+                            <li>✔ Full event access</li>
+                        </ul>
+
+                        <button>Select Ticket</button>
+                    </div>
+
+                    <div class="ticket-card">
+                        <h3>Camping</h3>
+                        <h1 class="price">M1800</h1>
+
+                        <ul>
+                            <li>✔ Weekend access</li>
+                            <li>✔ Tent City space</li>
+                            <li>✔ Outdoor experience</li>
+                        </ul>
+
+                        <button>Select Ticket</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Register</h2>
+
+                <form class="form">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email" required>
+
+                    <select required>
+                        <option>Select Ticket</option>
+                        <option>Standard</option>
+                        <option>VIP</option>
+                        <option>Camping</option>
+                    </select>
+
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="footer">
+
+        <div class="payment-logos">
+            <img src="images/visa.png">
+            <img src="images/verified-visa.png">
+            <img src="images/mastercard.png">
+            <img src="images/paypal.png">
+        </div>
+
+        <p class="footer-text">
+            
+        </p>
+
+    </footer>
+
+</body>
+</html>
